@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Foodie Restaurant</title>
+	<link rel="icon" type="image/x-icon" href="F:\project\ktv\favicon.svg">
+	<style>
+	 *{
+		padding: 0;
+		margin: 0;
+	}
+    header{
+		display: flex;
+		justify-content: space-between;
+    }
+     .main{
+     align-items: center;
+     display:flex;
+	  background-color:rgba(255, 255, 255, 0.582);
+	  color:white;
+	  width:100%;
+	  height:150px;
+	  position: fixed;
+	  justify-content:space-between;
+     }
+     span{
+         background-color: blue;
+         color: blueviolet;
+     }
+     .test{
+	  display:flex;
+	  text-decoration:none;
+	  list-style:none;
+	  font-size:30px;
+	  color:black;
+	  margin-top:25px;
+	  margin-right:20px;
+	  margin-bottom: 30px;
+	  gap:10px;
+	  }
+	  .test a{
+	  text-decoration:none;
+	  list-style:none;
+	  margin-top:40px;
+	  margin-right:20px;
+	  padding: 20px;
+	  gap:10px;
+	  }
+	  .test a:hover{
+	  background-color:red;
+	  border-radius:10px;
+	  }
+	  .wrapper{
+		  background-color: lightblue;
+		  text-align: center;
+		  width: 100%;
+		  font-size: 50px;
+		  height: 300px;
+
+	  }
+	  .wrapper p{
+		  font-size: 30px;
+		  margin-top: 20px;
+	  }
+	  .wrapper h1{
+		  font-size: 50px;
+		  margin-top: 20px;
+	  }
+	  .air{
+		  margin-top:250px;
+		  width: 100%;
+		  height: 300px;
+		  display: grid;
+		  color: white;
+		  grid-template-rows: 20px 70px 10px;
+		  background-color: black;
+	  }
+	  .air{
+		  display: flex;
+	  }
+	  .pass{
+	  display: flex;
+	  text-decoration:none;
+	  list-style:none;
+	  font-size:25px;
+	  color:white;
+	  margin-top: 150px;
+	  margin-left: 200px;
+	  margin-bottom: 10%;
+	  gap: 20px;
+	  }
+	  .pass a{
+	  color:white;
+	  margin-top: 150px;
+	  margin-bottom: 10%;
+	  cursor: pointer;
+	  text-decoration:none;
+	  list-style:none;
+	  }
+	  .pass a:hover{
+	  color: red;
+	  }
+	  .save img{
+		  margin-top: 100px;
+		  margin-left:50px;
+	  }
+	  .save p{
+		  font-size: 20px;
+		  margin-top: 40px;
+		  margin-left:50px;
+	  }
+	  .tast{
+		  margin-top: 150px;
+		  margin-left: 180px;
+		  margin-bottom: 10%;
+		  margin-right: 20px;
+		  font-size: 250x;
+	  }
+	  .page{
+		  display: flex;
+		  justify-content: space-between;
+		  width: 100%;
+		  height:1000px ;
+		  margin-top:50px;
+	  }
+	  .page{
+		  display: grid;
+		  grid-template-columns: 33% 33% 33%;
+	  }
+	  .card{
+		  cursor: pointer;
+		  display: inline-block;
+		 border-radius:20px ;
+		 border: 2px solid black;
+		  width: 350px;
+		  height: 550px;
+		  margin-left:50px;
+		  margin-top: 60px;
+	  }
+	  .card img{
+		  border-radius: 20px;
+		  width: 100%;
+		  height: 300px;
+	  }
+	  .card:hover{
+		  transform: translateY(-30px);
+	  }
+      .card h2{
+          text-align: left;
+          margin-top:50px;
+          font-size: 30px;
+          margin-left: 10px;
+      }
+      .card p{
+          margin-left:10px ;
+          text-align:left;
+          margin-top: 20px;
+          font-size: 20px;
+      }
+      .cart{
+          display: flex;
+          justify-content: space-between;
+          margin-top: 30px;
+      }
+      .cart p{
+          margin-left:40px ;
+      }
+      .card button{
+         margin-right: 30px;
+         cursor: pointer;
+         background-color:red;
+         border-radius: 10px;
+         padding: 10px;
+      }
+      .cart button:hover{
+          background-color: rgb(160, 24, 24);
+      }
+      .time{
+          margin-top: 1000px;
+      }
+      .face button {
+        border-radius:20px;
+        background-color:rgb(8, 73, 8);
+        cursor: pointer;
+        font-size: 20px;
+        margin-top:20px;
+        margin-right:30px;
+        padding:20px;
+      }
+      .face button:hover{
+          background-color: rgb(15, 250, 15);
+      }
+	</style>
+</head>
+<body>
+	<header>
+			<div class="main">
+            	<img src="F:\project\ktv\F11.jpeg" alt="Foodie Restaurant" style="width:100px; height:100px; margin-top:20px; border-radius: 50%; margin-left:20px;">
+            	<ol class="test">
+           	    	  <li><a class="test" href="home.html">Home</a></li>
+            	     <li><a class="test" href="about.html">About us</a></li>
+    	             <li><a class="test" href="gallery.html">Gallery</a></li>
+        	         <li><a class="test" href="menu.html">Menu</a></li>
+            	     <li><a class="test" href="contact.html">Contact</a></li>
+          	  </ol>
+    		</div>
+	</header>
+	<section>
+		<div class="wrapper" style="margin-top:200px;">
+			<p style="padding-top:50px;">FRESHLY MADE FOR YOU</p>
+			<h1>Our Menu</h1>
+			<p>Find your favourite bite, sip and treat.</p>
+		</div>
+	</section>
+	<section>
+		<div class="page">
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJthqw4QeEkWWWps-1iHAp7ECPNk86uvEj2vTNYQDxWA&s=10" alt="image">
+                <h2>Margherita Pizza</h2>
+                <p>Tomato, mozzarella and fragrant basil</p>
+                <div class="cart" >
+                    <p>₹249</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVpKE3zOw1VmC2PM1pbiiEA1EHoePyvkgGXhq5wm4ssw&s=10" alt="image">
+                <h2>Burger</h2>
+                <p>Crunchy vegetables with a bright, fresh dressing</p>
+                <div class="cart" > 
+                    <p>₹249</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVM8i6JEXcVxAhtDYRN0ruAFM3NjudHj_sxq6Hf-8Fgw&s=10" alt="image">
+                <h2>Momos</h2>
+                <p>Momos are popular South Asian and Himalayan dumplings </p>
+                <div class="cart">
+                    <p>₹80</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQO8s5XEKlYL-MzNwGyxN17RT6Zldxb_fCdoxnjxfArZg&s=10" alt="image">
+                <h2>Frankie</h2>
+                <p>"Frankie" can refer to several popular  </p>
+                <div class="cart">
+                    <p>₹60</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXsXC2zVExp9r-xWEBSa099NDdtbvi6j7ZJf5kSxVVdg&s=10" alt="image">
+                <h2>Garden Sandwich</h2>
+                <p>Toasted bread packed with fresh vegetables</p>
+                <div class="cart">
+                    <p>₹200</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-Hcez2v-DdOfakFxeefTRupXGHcwTDJB8-1HBTDV7YQ&s=10" alt="image">
+                <h2>Spring roll</h2>
+                <p>popular in various Asian cuisines, traditionally </p>
+                <div class="cart">
+                    <p>₹99</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2DAlMifCvxuc1U6bVwChFJB8bCK7DDZVv4PPlHrHPrQ&s=10" alt="image">
+                <h2>Ice Cream</h2>
+                <p>It is very popular in every country</p>
+                <div class="cart">
+                    <p>₹89</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxbAW5saLfDZuqYpwwqdSoijBoZhMXTMqJkTB9N9E2gw&s=10" alt="image">
+                <h2>Milk Shake</h2>
+                <p>A milkshake is a sweet, cold beverage traditionally </p>
+                <div class="cart">
+                    <p>₹149</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+			<div class="card">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRChZC3XAO2_drRF5qbfDmn0Pzn8C5GDKnv90vCYXtBNw&s=10" alt="image">
+                <h2>Pestry</h2>
+                <p>It is popular in France</p>
+                <div class="cart">
+                    <p>₹179</p>
+                    <button>Add to cart</button>
+                </div>
+			</div>
+		</div>
+        <div class="time" style=" display: flex;justify-content:space-between;margin-left:100px ;width: 80%; height:100px; border-radius: 20px; background-color:lightseagreen ;">
+            <div class="file" style="margin-top:30px;margin-left:30px;">
+            <h3>Your order</h3>
+            <p>0 items · Total ₹0</p>
+            </div>
+            <div class="face">
+                <button>Review order</button>
+            </div>
+        </div>
+	</section>
+    
+	<footer>
+		<div class="air">
+			<div class="save">
+				<img src="F:\project\ktv\F11.jpeg" alt="Foodie Restaurant" style="width:100px; height:100px;border-radius: 50%;">
+				<p>Fresh flavours. Happy moments.</p>
+			</div>
+			<div>
+				<ol class="pass">
+					<li><a  href="home.html">Home</a></li>
+					<li><a  href="about.html">About us</a></li>
+					<li><a  href="gallery.html">Gallery</a></li>
+					<li><a  href="menu.html">Menu</a></li>
+					<li><a  href="contact.html">Contact</a></li>
+		   		</ol>	
+			</div>
+			<div class="tast">
+				<p>© 2026 Foodie Restaurant</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

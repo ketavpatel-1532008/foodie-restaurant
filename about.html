@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Foodie Restaurant</title>
+ <link rel="icon" type="image/x-icon" href="F:\project\ktv\favicon.svg">
+<style>
+     *{
+		padding: 0;
+		margin: 0;
+	}
+    .header{
+        display: grid;
+        grid-template-rows:10px 200px  ;
+    }
+     .main{
+     align-items: center;
+     display:flex;
+	  background-color:rgba(255, 255, 255, 0.582);
+	  color:white;
+	  width:100%;
+	  height:150px;
+	  position: fixed;
+	  justify-content:space-between;
+     }
+     span{
+         background-color: blue;
+         color: blueviolet;
+     }
+     .test{
+	  display:flex;
+	  text-decoration:none;
+	  list-style:none;
+	  font-size:30px;
+	  color:black;
+	  margin-top:25px;
+	  margin-right:20px;
+	  margin-bottom: 30px;
+	  gap:10px;
+	  }
+	  .test a{
+	  text-decoration:none;
+	  list-style:none;
+	  margin-top:40px;
+	  margin-right:20px;
+	  padding: 20px;
+	  gap:10px;
+	  }
+	  .test a:hover{
+	  background-color:red;
+	  border-radius:10px;
+	  }
+      .page{
+          width: 100%;
+          height: 300px;
+          text-align: center;
+          background-color: lightblue;
+          margin-top: 150px;
+      }
+      .side{
+          display: flex;
+          justify-content: space-between;
+          margin-top:300px;
+      }
+      .left img{
+          border-radius: 20px;
+          width: 80%;
+          height:400px;
+          margin-left:70px; 
+      }
+      .face{
+          list-style:none;
+          text-decoration:none;
+          border: none;
+          border-radius: 20px;
+          padding: 20px;
+          font-size:20px;
+          background-color:green;
+          color: white;
+      }
+      .face:hover{
+          margin: 20px;
+      }
+      .hide{
+          margin-top: 50px;
+      }
+      .air{
+          display: flex;
+          justify-content: space-around;
+          margin-top: 300px;
+      }
+      .card{
+          display: inline-block;
+          border-radius: 20px;
+          width: 350px;
+          height: 150px;
+          background-color: lightblue;
+          box-shadow: 0 5px 15px rgba(0,0,0,0.9);
+      }
+      .card h2{
+          margin-top: 30px;
+          margin-left: 20px;
+      }
+      .card p{
+          margin-top: 10px;
+          margin-left: 20px;
+      }
+      .hour{
+          margin-top: 100px;
+		  width: 100%;
+		  height: 300px;
+		  display: grid;
+		  color: white;
+		  grid-template-rows: 20px 70px 10px;
+		  background-color: black;
+	  }
+	  .hour{
+		  display: flex;
+	  }
+	  .pass{
+	  display: flex;
+	  text-decoration:none;
+	  list-style:none;
+	  font-size:25px;
+	  color:white;
+	  margin-top: 150px;
+	  margin-left: 200px;
+	  margin-bottom: 10%;
+	  gap: 20px;
+	  }
+	  .pass a{
+	  color:white;
+	  margin-top: 150px;
+	  margin-bottom: 10%;
+	  cursor: pointer;
+	  text-decoration:none;
+	  list-style:none;
+	  }
+	  .pass a:hover{
+	  color: red;
+	  }
+	  .save img{
+		  margin-top: 100px;
+		  margin-left:50px;
+	  }
+	  .save p{
+		  font-size: 20px;
+		  margin-top: 40px;
+		  margin-left:50px;
+	  }
+	  .tast{
+		  margin-top: 150px;
+		  margin-left: 180px;
+		  margin-bottom: 10%;
+		  margin-right: 20px;
+		  font-size: 250x;
+	  }
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="main">
+                <img src="F:\project\ktv\F11.jpeg" alt="Foodie Restaurant" style="width:100px; height:100px; margin-top:20px; border-radius: 50%; margin-left:20px;">
+                <ol class="test">
+                     <li><a class="test" href="home.html">Home</a></li>
+                     <li><a class="test" href="about.html">About us</a></li>
+                     <li><a class="test" href="gallery.html">Gallery</a></li>
+                     <li><a class="test" href="menu.html">Menu</a></li>
+                     <li><a class="test" href="contact.html">Contact</a></li>
+                 </ol>
+         </div>
+         <div class="page">
+            <p style="margin-top: 80px; font-size:20px; color: purple;">GET TO KNOW US</p>
+            <h1 style="margin-top:10px; font-size:50px; color:red;">About Foodie</h1>
+            <p style="margin-top:10px; font-size:20px; color:purple;">Good food brings people together.</p>
+         </div>
+    </div>
+    <div  class="side"   style="width:100%; height:250px;">
+        <div style="width:50%;" class="left">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR49uO6zT_3pT1803aXV3Q0v8OvRS1T-05lSqpWuZTJnw&s=10" alt="image">
+        </div>
+        <div  class="right"  style="width:50%;">
+            <p style="font-size:30px; color:lightgreen;margin-top:30px;">OUR STORY</p>
+            <h2 style="font-size:50px; color:red; margin-top:10px;">Food made for sharing</h2>
+            <p style="font-size:20px; color:purple;margin-top:20px;margin-right:20px;"> Welcome to Foodie, a friendly place where delicious food and a relaxed atmosphere come together.<br> 
+                We believe a great meal starts with thoughtful ingredients and ends with a happy memory. From a quick bite to a catch-up with friends, we want every visit to feel special.</br>
+                Our promise is simple: fresh flavours, warm service and food worth coming back for.</p>
+                <div class="hide">
+                    <a class="face" href="menu.html" style="margin-top:50px;">Discover your Menu</a>
+                </div>
+        </div>
+     </div>
+     <div class="air">
+        <div class="card" style="margin-left:50px;">
+            <h2>Fresh food</h2>
+            <p>Carefully chosen ingredients and flavour in every bite.</p>
+        </div>
+        <div class="card">
+            <h2>Friendly service</h2>
+            <p>Every guest should feel welcome and looked after.</p>
+        </div>
+        <div class="card" style="margin-right:50px;">
+            <h2>Made with care</h2>
+            <p>Good food and memorable visits, every time.</p>
+        </div>
+     </div>
+     <footer>
+		<div class="hour">
+			<div class="save">
+				<img src="F:\project\ktv\F11.jpeg" alt="Foodie Restaurant" style="width:100px; height:100px;border-radius: 50%;">
+				<p>Fresh flavours. Happy moments.</p>
+			</div>
+			<div>
+				<ol class="pass">
+					<li><a  href="home.html">Home</a></li>
+					<li><a  href="about.html">About us</a></li>
+					<li><a  href="gallery.html">Gallery</a></li>
+					<li><a  href="menu.html">Menu</a></li>
+					<li><a  href="contact.html">Contact</a></li>
+		   		</ol>	
+			</div>
+			<div class="tast">
+				<p>© 2026 Foodie Restaurant</p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
